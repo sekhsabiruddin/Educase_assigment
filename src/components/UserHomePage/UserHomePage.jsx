@@ -46,7 +46,7 @@ const UserHomePage = () => {
               numquam ut voluptate autem.
             </p>
           </div>
-          <div className="h-[60vh] flex align-center w-full  dashedBorder"></div>
+          <div className="min-h-[55vh] flex align-center w-full  dashedBorder"></div>
         </div>
       </div>
     </div>

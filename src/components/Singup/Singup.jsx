@@ -8,7 +8,7 @@ const Signup = () => {
     <div className="h-screen ">
       <div className="h-screen boxShadow mx-auto flex justify-center lg:w-[40%] bg-[#F7F8F9] ">
         <div className="flex flex-col gap-5 mt-8  w-[90%] lg:w-[70%]">
-          <h1 className="text-[18px] font-semibold my-4 ">
+          <h1 className="text-[2.3rem] font-[700] my-4 ">
             Create Your Pros Account
           </h1>
           <Input label="Full Name" plceholder="Enter name" />
