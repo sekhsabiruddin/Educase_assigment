@@ -5,9 +5,12 @@ import Input from "../Input/Input";
 import { Link } from "react-router-dom";
 const Signup = () => {
   return (
-    <div className="h-screen">
-      <div className="h-screen mx-auto flex items-center justify-center w-[40%] bg-[#F7F8F9]">
-        <div className="flex flex-col gap-5 w-[70%]">
+    <div className="h-screen ">
+      <div className="h-screen boxShadow mx-auto flex justify-center lg:w-[40%] bg-[#F7F8F9] ">
+        <div className="flex flex-col gap-5 mt-8  w-[90%] lg:w-[70%]">
+          <h1 className="text-[18px] font-semibold my-4 ">
+            Create Your Pros Account
+          </h1>
           <Input label="Full Name" plceholder="Enter name" />
           <Input label="Phone number" plceholder="Enter Password " />
           <Input label="Email Address" plceholder="Enter Password " />
@@ -31,7 +34,7 @@ const Signup = () => {
               </div>
             </div>
           </div>
-          <div className="font-semibold flex flex-col gap-3">
+          <div className="font-semibold flex flex-col gap-3 mt-3">
             <Link to="/user-home">
               <button className="rounded-md w-full text-[#ffffff] py-3 bg-[#6c25ff]">
                 Create Accout

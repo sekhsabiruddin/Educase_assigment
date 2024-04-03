@@ -3,7 +3,7 @@ const Input = ({ label, plceholder }) => {
   console.log("label is", label, "placeholder ", plceholder);
   return (
     <div
-      className="relative flex flex-col"
+      className="relative flex flex-col w-full"
       style={{ border: "0.1px solid #ddd" }}
     >
       <span className="bg-[#ffff] inputFiledSpan"></span>
@@ -17,7 +17,7 @@ const Input = ({ label, plceholder }) => {
       <input
         type="text"
         placeholder={plceholder}
-        className="inputFiled outline-none px-5 py-3"
+        className="inputFiled  outline-none px-5 py-3"
       />
     </div>
   );

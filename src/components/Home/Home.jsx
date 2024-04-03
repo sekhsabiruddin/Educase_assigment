@@ -2,13 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Home = () => {
   return (
-    <div className="h-screen ">
-      <div className="h-screen boxShadow  mx-auto flex items-center justify-center w-[40%]">
-        <div className="flex flex-col gap-5 w-[70%]">
-          <h1 className="text-center text-semibold text-[2rem]">
+    <div className="h-screen  ">
+      <div
+        className="h-screen  boxShadow mx-auto flex items-end p-2  w-[98%]  lg:max-w-[40%] lg:items-center  lg:p-2"
+        style={{ border: "2px solid #dddddd" }}
+      >
+        <div className="flex flex-col justify-center gap-5 w-[100%] ">
+          <h1 className="lg:text-center text-semibold text-[2rem]">
             Wellcome to Porx
           </h1>
-          <p className="text-center ">
+          <p className="lg:text-center ">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus,
             optio.
           </p>

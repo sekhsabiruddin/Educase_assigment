@@ -5,8 +5,8 @@ import { IoCamera } from "react-icons/io5";
 const UserHomePage = () => {
   return (
     <div className="h-screen ">
-      <div className="h-screen mx-auto  w-[30%] bg-[#F7F8F9]">
-        <div className=" flex flex-col gap-5  w-[100%]">
+      <div className="h-screen boxShadow  mx-auto md:[100%] lg:w-[30%] bg-[#F7F8F9]">
+        <div className=" flex flex-col gap-5 w-[100%]">
           <div className="bg-white p-4">
             <h1>Account Setting</h1>
           </div>
