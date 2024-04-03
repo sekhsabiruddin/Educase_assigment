@@ -13,15 +13,17 @@ const Home = () => {
             optio.
           </p>
           <div className="font-semibold flex flex-col gap-3">
-            <Link to="/sign-in">
+            <Link to="/sign-up">
               <button className="rounded-md w-full text-[#ffffff] py-3 bg-[#6c25ff]">
                 Create Accout
               </button>
             </Link>
-            <button className="rounded-md w-full text-[#23282C] py-3 bg-[#CEBAFB]">
-              {" "}
-              Alredy Register?Login
-            </button>
+            <Link to="/sign-in">
+              <button className="rounded-md w-full text-[#23282C] py-3 bg-[#CEBAFB]">
+                {" "}
+                Alredy Register?Login
+              </button>
+            </Link>
           </div>
         </div>
       </div>

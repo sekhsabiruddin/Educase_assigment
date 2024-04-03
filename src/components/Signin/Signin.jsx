@@ -15,8 +15,8 @@ const Signin = () => {
   };
 
   return (
-    <div className="h-screen border-1">
-      <div className="h-screen mx-auto flex items-center justify-center border-2 w-[40%]">
+    <div className="h-screen ">
+      <div className="h-screen mx-auto flex items-center justify-center w-[40%]">
         <div className="flex flex-col gap-5 w-[80%]">
           <h1 className="text-center text-semibold text-[2rem]">
             Singup to you account ProX account
