@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="h-screen ">
-      <div className="h-screen mx-auto flex items-center justify-center border-2 w-[40%]">
+      <div className="h-screen mx-auto flex items-center justify-center w-[40%]">
         <div className="flex flex-col gap-5 w-[70%]">
           <h1 className="text-center text-semibold text-[2rem]">
             Wellcome to Porx
